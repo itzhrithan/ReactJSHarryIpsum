@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Classes from './Carousel.module.css';
 export class Carousel extends Component {
   state = {
-    imgFront: '/front_2.JPG',
-    imgBack: '/background_1.JPG'
+    imgFront: '/front_2.jpg',
+    imgBack: '/background_1.jpg'
   };
   render() {
     return (

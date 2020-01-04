@@ -2,7 +2,7 @@
   "name": "harrysum",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://itzhrithan.github.io/Harry-Potter-Lorem-Ipsum-ReactJSApp",
+  "homepage": "http://itzhrithan.github.io/Harry-Potter-Lorem-Ipsum-ReactJSApp/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
