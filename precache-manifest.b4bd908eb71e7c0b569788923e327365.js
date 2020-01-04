@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c92e8cf5cd449922d4230f8368908e7",
+    "revision": "0eaa079b4633d897917df0d2c72f5ccb",
     "url": "/ReactJSHarryIpsum/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactJSHarryIpsum/static/css/2.64a99b10.chunk.css"
   },
   {
-    "revision": "742b2e9be43f3897dbba",
+    "revision": "60175dab107bab02d1cd",
     "url": "/ReactJSHarryIpsum/static/css/main.88288eb4.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactJSHarryIpsum/static/js/2.931a04da.chunk.js.LICENSE"
   },
   {
-    "revision": "742b2e9be43f3897dbba",
-    "url": "/ReactJSHarryIpsum/static/js/main.8235cc0d.chunk.js"
+    "revision": "60175dab107bab02d1cd",
+    "url": "/ReactJSHarryIpsum/static/js/main.cabbc693.chunk.js"
   },
   {
     "revision": "df892112e2a544a4f50a",
