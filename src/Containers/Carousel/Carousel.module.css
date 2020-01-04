@@ -1,0 +1,132 @@
+.Background {
+  width: inherit;
+  transition: all 0.9s ease;
+}
+.BackgroundDiv {
+  position: absolute;
+  width: 100%;
+  max-height: 600px;
+  overflow: hidden;
+}
+
+.Div2 {
+  position: absolute !important;
+  width: 100%;
+}
+h1 {
+  color: white;
+  font-size: 8em !important;
+  font-family: 'Open-Sans';
+}
+.FrontDiv {
+  position: relative !important;
+  top: 50px;
+  overflow: hidden;
+  width: 450px;
+  height: 610px;
+  box-shadow: 4px 9px 31px 0px rgba(0, 0, 0, 0.75);
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.5);
+  }
+}
+.Front {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  left: 0;
+  transition: all 0.9s ease-out;
+  animation: heartbeat 4s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+}
+.input {
+  position: relative;
+  left: -100px;
+  padding: 10px;
+  top: 200px;
+  transition: all 0.9s ease;
+}
+h4 {
+  font-size: 20px !important;
+  color: #f9f6f7;
+  font-family: 'Bad Script';
+}
+
+.BackgroundDiv:after {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+input {
+  width: 50px;
+}
+
+@keyframes movingBorder {
+  25% {
+  }
+  50% {
+  }
+  75% {
+  }
+  100% {
+  }
+}
+button {
+  height: 100%;
+  padding: 10px 20px;
+  background-color: #a80038;
+  border: none;
+  color: white;
+  animation: movingBorder 2s infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@media screen and (max-width: 747px) {
+  .FrontDiv {
+    max-height: 400px;
+    width: 100%;
+    top: 0;
+  }
+
+  .mobilePosition {
+    position: absolute !important;
+  }
+  .input {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.9s ease;
+  }
+
+  .FrontDiv:after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  h1 {
+    font-size: 4em !important;
+  }
+  h4 {
+    font-size: 18px !important;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+  button {
+    margin-top: 20px;
+  }
+}
