@@ -1,23 +1,25 @@
 import React, { Component } from 'react';
 import Classes from './Carousel.module.css';
 export class Carousel extends Component {
-  state = {
-    imgFront: '/front_2.jpg',
-    imgBack: '/background_1.jpg'
-  };
   render() {
     return (
       <>
         <section>
           <div className={'row ' + Classes.BackgroundDiv}>
             <div className={'col-md-12 '}>
-              <img src={this.state.imgBack} className={Classes.Background} />
+              <img
+                src='https://itzhrithan.github.io/ReactJSHarryIpsum/public/background_1.jpg'
+                className={Classes.Background}
+              />
             </div>
           </div>
 
           <div className={'row'}>
             <div className={'col-md-4 offset-md-1 ' + Classes.FrontDiv}>
-              <img src={this.state.imgFront} className={Classes.Front} />
+              <img
+                src='https://itzhrithan.github.io/ReactJSHarryIpsum/public/front_2.jpg'
+                className={Classes.Front}
+              />
             </div>
             <div className={'col-md-6 ' + Classes.mobilePosition}>
               <div className={Classes.input}>
